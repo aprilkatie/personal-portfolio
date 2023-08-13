@@ -2,7 +2,7 @@ import SocialMediaIcons from "../components/SocialMediaIcons";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import profile  from "../assets/profile-image.png"
+import profile from "../assets/profile-image.png"
 const Landing = ({ setSelectedPage }) => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
   return (
@@ -56,9 +56,9 @@ const Landing = ({ setSelectedPage }) => {
           </p>
 
           <p className="mt-10 mb-7 font-poppins text-sm text-center md:text-start">
-          I have a deep passion for learning and growing in the field of computer science. 
-          I've always been captivated by technology, and have a strong desire to study more 
-          and advance my computer science career.
+            I have a deep passion for learning and growing in the field of computer science.
+            I've always been captivated by technology, and have a strong desire to study more
+            and advance my computer science career.
           </p>
         </motion.div>
 
@@ -82,15 +82,17 @@ const Landing = ({ setSelectedPage }) => {
           >
             Contact Me
           </AnchorLink>
-          <AnchorLink
+          <a
             className="rounded-r-sm bg-custom-gradient bg-custom-bg-color py-0.5 pr-0.5"
-            onClick={() => setSelectedPage("contact")}
-            href="#contact"
+            href="https://drive.google.com/file/d/1P8H6k4f2qqm4FnS8wZWAAvvQ76C36aUz/view?usp=drive_link"
+            target="_blank"  // Open in a new tab/window
+            rel="noopener noreferrer"  // Recommended for security when using target="_blank"
           >
             <div className="bg-deep-blue hover:text-pink transition duration-500 w-full h-full flex items-center justify-center px-10 font-poppins">
               Resume
             </div>
-          </AnchorLink>
+          </a>
+
         </motion.div>
 
         <motion.div
