@@ -84,7 +84,7 @@ const Landing = ({ setSelectedPage }) => {
           </AnchorLink>
           <a
             className="rounded-r-sm bg-custom-gradient bg-custom-bg-color py-0.5 pr-0.5"
-            href="https://drive.google.com/file/d/1P8H6k4f2qqm4FnS8wZWAAvvQ76C36aUz/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1SY72u8n_zhCaqHbewfu01woLs3x53N6n/view?usp=sharing"
             target="_blank"  // Open in a new tab/window
             rel="noopener noreferrer"  // Recommended for security when using target="_blank"
           >
